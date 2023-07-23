@@ -1,0 +1,223 @@
+:root{
+    --primary-color: #cb3931;
+    --secondary-color: #f0f0f0;
+}
+.container{
+    padding: 0 10% 0 10%;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.col-3{
+    flex-basis: 27%;
+    min-width: 300px;
+}
+.col-7{
+    flex-basis: 60%;
+}
+.col-4-education{
+    flex-basis: 40%;
+}
+.padding-top-career{
+    padding-top: 40px;
+}
+.col-9{
+    flex-basis: 66.66%;
+    min-width: 300px
+}
+.color-1{
+    color:var(--primary-color);
+    font-family: Poppins;
+}
+.margin-auto{
+    margin: 9% 0;
+}
+.bg-grey{
+    background-color: var(--secondary-color);
+}
+.header-details{
+    padding: 100px 0px 60px 10%;
+    margin-top: -11%;
+    z-index: -1;
+    position: relative;
+}
+.center-img{
+    text-align: center;
+}
+.header-title{
+    font-size: 7rem;
+    font-weight: bolder;
+    color: #000;
+    font-family: Poppins;
+    line-height: 7rem;
+}
+.col-4{
+    flex: 0 0 auto;
+}
+.fluid{
+    padding-left: 10%;
+}
+.contact-details{
+    list-style: none;
+    font-size: 1.5rem;
+}
+.contact-wrapper {
+    position: absolute;
+    top: 150px;
+    right: 430px;
+}
+.clearfix{
+    clear: both;
+}
+.job-title{
+    width: 100%;
+    margin-top: -50px;
+    padding-right: 10%;
+}
+.job-title-h1{
+    font-size: 2rem;
+    color: var(--primary-color);
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: Poppins;
+}
+.social-media{
+    list-style: none;
+    display: flex;
+}
+.social-media li{
+    padding-right: 10px;
+}
+.social-media li img{
+    width: 30px;
+    height: 30px;
+}
+.padding-right-career{
+    padding-right: 50px;
+}
+.padding-bottom-career{
+    padding-bottom: 80px;
+}
+.career h3{
+    font-size: 1.3rem;
+    font-style: italic;
+    font-weight: bold;
+    font-family: Poppins;
+    padding: 0;
+    margin: 0;
+}
+.career h2{
+    font-size: 1.4rem;
+    font-weight: bolder;
+    font-family: Poppins;
+    padding: 0;
+    margin: 0;
+}
+.career h2 span{
+    color: var(--primary-color);
+    font-weight: unset;
+    font-size: 1.2rem;
+}
+.career p{
+    color: grey;
+    font-family: Poppins;
+    padding-top:10px;
+    margin:0;
+}
+.career h1{
+    font-size: 2rem;
+    color: var(--primary-color);
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: Poppins;
+    padding-bottom: 30px;
+}
+@media only screen and (max-width: 900px) {
+    .contact-wrapper {
+        position: absolute;
+        top: 130px;
+        right: 11px;
+    }
+    .center-img{
+        text-align: center;
+        width: 300px;
+        height: 400px
+        
+    }
+    .header-details{
+        padding: 100px 0px 20px 5%;
+        margin-top: -30%;
+        z-index: -1;
+        position: relative;
+    }
+    .header-title {
+        font-size: 3rem;
+        font-weight: bolder;
+        color: #000;
+        font-family: Poppins;
+        line-height: 5rem;
+    }
+    .contact-details {
+        list-style: none;
+        font-size: 0.7rem;
+    }
+    .job-title-h1 {
+        font-size: 0.8rem;
+        color: var(--primary-color);
+        text-transform: uppercase;
+        font-weight: bold;
+        font-family: Poppins;
+    }
+    ul {
+        
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        padding-inline-start: 20px;
+    }
+    .social-media li img {
+        width: 20px;
+        height: 20px;
+    }
+    .job-title {
+        width: 100%;
+        margin-top: -50px;
+        padding-right: 0%;
+    }   
+    .col-7 {
+        flex-basis: 50%;
+    }
+    .career h1 {
+        font-size: 1rem;
+        color: var(--primary-color);
+        text-transform: uppercase;
+        font-weight: bold;
+        font-family: Poppins;
+        padding-bottom: 30px;
+    }
+    .career h3 {
+        font-size: 0.9rem;
+        font-style: italic;
+        font-weight: bold;
+        font-family: Poppins;
+        padding: 0;
+        margin: 0;
+    }
+    .career h2 {
+        font-size: 0.9rem;
+        font-weight: bolder;
+        font-family: Poppins;
+        padding: 0;
+        margin: 0;
+    }
+    .career h2 span {
+        color: var(--primary-color);
+        font-weight: unset;
+        font-size: 0.9rem;
+    }
+
+}
